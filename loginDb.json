@@ -1,0 +1,90 @@
+{
+  "loginuser": [
+    {
+      "username": "John Vogan1",
+      "email": "john@yahoo.com",
+      "phone": "8978234566",
+      "password": "John@12",
+      "id": "40e5a1ab-4d05-4512-bb13-bf6ce3995271"
+    },
+    {
+      "username": "Tarun Kumar Das",
+      "email": "tarun1@yahoo.com",
+      "password": "Tarun@12",
+      "id": "9775e298-308d-47ad-a0d0-2e27c1126f26"
+    },
+    {
+      "username": "kiran Shing",
+      "email": "kiranshing@yahoo.com",
+      "phone": "7878904530",
+      "technology": [
+        {
+          "value": "node",
+          "label": "Node"
+        }
+      ],
+      "gender": "Female",
+      "status": false,
+      "performance": "best",
+      "details": "hi",
+      "fullDetails": "<p>kii</p>",
+      "password": "Kiran@123",
+      "notification": true,
+      "id": "8775e298-308d-47ad-a0d0-2e27c1126f12"
+    },
+    {
+      "username": "Ankit Pramanik",
+      "email": "ankit@gmail.com",
+      "phone": "7890234566",
+      "technology": [
+        {
+          "value": "react",
+          "label": "React"
+        },
+        {
+          "value": "node",
+          "label": "Node"
+        }
+      ],
+      "gender": "male",
+      "status": true,
+      "performance": "best",
+      "details": "jjj ki",
+      "fullDetails": "<p>hi iam here</p>",
+      "password": "Ankit@12",
+      "notification": true,
+      "id": 1700333011189
+    },
+    {
+      "username": "Shuvo-13",
+      "email": "shuvo-13.ach@yahoo.com",
+      "phone": "9678234566",
+      "technology": [
+        {
+          "value": "react",
+          "label": "React"
+        },
+        {
+          "value": "anguler",
+          "label": "Anguler"
+        },
+        {
+          "value": "node",
+          "label": "Node"
+        },
+        {
+          "value": "vue",
+          "label": "Vue"
+        }
+      ],
+      "gender": "male",
+      "status": true,
+      "performance": "good",
+      "details": "Hollo, we offer our services in Watford, Hemel Hempstead, St Albans, Harrow,  Stanmore and Kings Langley. ",
+      "fullDetails": "<p><span style=\"color: rgb(36, 35, 35);\">While learning to drive, you must know that practising on different kinds of roads broadens the overall experience. At Confident pass driving school, our&nbsp;</span><strong style=\"color: rgb(36, 35, 35);\">Beginner Driving Lessons</strong><span style=\"color: rgb(36, 35, 35);\">&nbsp;are designed to ensure to make you a safe and confident driver. We offer our services in Watford, Hemel Hempstead, St Albans, Harrow,&nbsp;Stanmore and Kings Langley.&nbsp;</span></p>",
+      "password": "Sasd@111",
+      "notification": true,
+      "id": 1703594245139
+    }
+  ]
+}
