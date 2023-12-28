@@ -1,6 +1,13 @@
 {
   "loginuser": [
     {
+      "username": "John Vogan1",
+      "email": "john@yahoo.com",
+      "phone": "8978234566",
+      "password": "John@12",
+      "id": "40e5a1ab-4d05-4512-bb13-bf6ce3995271"
+    },
+    {
       "username": "Tarun Kumar Das",
       "email": "tarun1@yahoo.com",
       "phone": "4715487915",
