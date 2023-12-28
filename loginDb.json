@@ -1,16 +1,34 @@
 {
   "loginuser": [
     {
-      "username": "John Vogan1",
-      "email": "john@yahoo.com",
-      "phone": "8978234566",
-      "password": "John@12",
-      "id": "40e5a1ab-4d05-4512-bb13-bf6ce3995271"
-    },
-    {
       "username": "Tarun Kumar Das",
       "email": "tarun1@yahoo.com",
+      "phone": "4715487915",
+      "technology": [
+        {
+          "value": "node",
+          "label": "Node"
+        },
+        {
+          "value": "react",
+          "label": "React"
+        },
+        {
+          "value": "vue",
+          "label": "Vue"
+        },
+        {
+          "value": "anguler",
+          "label": "Anguler"
+        }
+      ],
+      "gender": "male",
+      "status": true,
+      "performance": "good",
+      "details": "hello there...Send me updated notification",
+      "fullDetails": "<p>hi Send me updated notification Send me updated notification</p>",
       "password": "Tarun@12",
+      "notification": true,
       "id": "9775e298-308d-47ad-a0d0-2e27c1126f26"
     },
     {
