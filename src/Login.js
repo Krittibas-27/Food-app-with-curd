@@ -42,6 +42,7 @@ const Login = () => {
             phone: data.userphone,
             technology: data.technology, 
             gender: data.usergender,
+            performance: data.performance,
             status: data.userstatus,
             details: data.userdetails,
             fullDetails: data.userFullDetails,
@@ -199,6 +200,7 @@ const Login = () => {
                 </FloatingLabel>
                 <Form.Check 
                     type="switch"
+                    id="notification"
                     label="Send me updated notification"
                     {...register("notification")}
                 />

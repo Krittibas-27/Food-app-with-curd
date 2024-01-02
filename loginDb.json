@@ -130,6 +130,56 @@
       "password": "Sasd@111",
       "notification": true,
       "id": 1703594245139
+    },
+    {
+      "username": "Rita-12",
+      "email": "rita12@yahoo.com",
+      "phone": "8964258810",
+      "technology": [
+        {
+          "value": "react",
+          "label": "React"
+        },
+        {
+          "value": "anguler",
+          "label": "Anguler"
+        }
+      ],
+      "gender": "Female",
+      "status": false,
+      "performance": "good",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "fullDetails": "<p><strong style=\"color: rgb(0, 0, 0);\">Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</span></p>",
+      "password": "Rita@1",
+      "notification": true,
+      "id": 1703920230769
+    },
+    {
+      "username": "hff",
+      "email": "asddg@gmail.com",
+      "phone": "4545454545",
+      "technology": [
+        {
+          "value": "react",
+          "label": "React"
+        },
+        {
+          "value": "anguler",
+          "label": "Anguler"
+        },
+        {
+          "value": "node",
+          "label": "Node"
+        }
+      ],
+      "gender": "Other",
+      "status": true,
+      "performance": "better",
+      "details": "rtrty",
+      "fullDetails": "<p>ryrdy</p>",
+      "password": "asdf@1A",
+      "notification": true,
+      "id": 1704216713432
     }
   ]
 }

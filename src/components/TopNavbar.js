@@ -15,9 +15,11 @@ const TopNavbar = () => {
   const navigate = useNavigate()
   const storageData = JSON.parse(localStorage.getItem("userLogin"));
   const logoutUser=()=>{
-    localStorage.removeItem("userLogin")
+    if(localStorage){
+      localStorage.removeItem("userLogin")
     navigate('/login')
     window.location.reload()
+    }
   }
   return (
     <Navbar expand="lg" className="bg-primary" data-bs-theme="dark">
@@ -38,7 +40,7 @@ const TopNavbar = () => {
         </Button>
 
         {
-          storageData.username && 
+          storageData ?
           <Dropdown>
           <Dropdown.Toggle variant="none" id="dropdown-basic">
             <Avatar
@@ -49,7 +51,7 @@ const TopNavbar = () => {
                 "green",
                 "blue",
               ])}
-              name={storageData.username}
+              name={storageData.username && storageData.username}
               textSizeRatio={1.8}
               className="cursor-pointer"
             />
@@ -60,6 +62,7 @@ const TopNavbar = () => {
             <Link className="dropdown-item" onClick={()=>logoutUser()}>Logout </Link>
           </Dropdown.Menu>
         </Dropdown>
+        : null
         }
         
       </Container>
