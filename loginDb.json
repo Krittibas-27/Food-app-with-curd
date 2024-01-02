@@ -4,7 +4,27 @@
       "username": "John Vogan1",
       "email": "john@yahoo.com",
       "phone": "8978234566",
+      "technology": [
+        {
+          "value": "react",
+          "label": "React"
+        },
+        {
+          "value": "anguler",
+          "label": "Anguler"
+        },
+        {
+          "value": "vue",
+          "label": "Vue"
+        }
+      ],
+      "gender": "Other",
+      "status": false,
+      "performance": "better",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+      "fullDetails": "<p><strong style=\"color: rgb(0, 0, 0);\">Lorem Ipsum</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span></p>",
       "password": "John@12",
+      "notification": true,
       "id": "40e5a1ab-4d05-4512-bb13-bf6ce3995271"
     },
     {

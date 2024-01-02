@@ -41,6 +41,7 @@ const UserLoginList = () => {
         return user.filter((ele)=>{
             return ele.username.toLowerCase().includes(query.toLowerCase()) || 
             ele.email.toLowerCase().includes(query.toLowerCase()) || 
+            ele.gender.toLowerCase().includes(query.toLowerCase()) || 
             String(ele.phone).includes(query) 
         })
     } 
